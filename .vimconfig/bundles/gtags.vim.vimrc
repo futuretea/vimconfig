@@ -1,0 +1,1 @@
+Plug 'aceofall/gtags.vim'
