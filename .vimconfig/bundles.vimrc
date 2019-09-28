@@ -22,7 +22,7 @@ source ~/.vimconfig/bundles/tabular.vimrc
 source ~/.vimconfig/bundles/vim-surround.vimrc
 " 样式
 source ~/.vimconfig/bundles/vim-syntax-extra.vimrc
-" source ~/.vimconfig/bundles/vim-cpp-enhanced-highlight.vimrc
+
 " 视图
 source ~/.vimconfig/bundles/vim-airline.vimrc
 source ~/.vimconfig/bundles/indentLine.vimrc
@@ -30,8 +30,7 @@ source ~/.vimconfig/bundles/gruvbox.vimrc
 " 窗口
 source ~/.vimconfig/bundles/bufexplorer.vimrc
 " 查看
-" source ~/.vimconfig/bundles/vim-fswitch.vimrc
-" source ~/.vimconfig/bundles/vim-signature.vimrc
+source ~/.vimconfig/bundles/vim-signature.vimrc
 source ~/.vimconfig/bundles/LeaderF.vimrc
 source ~/.vimconfig/bundles/ctrlsf.vim.vimrc
 source ~/.vimconfig/bundles/vim-easymotion.vimrc
@@ -41,15 +40,23 @@ source ~/.vimconfig/bundles/SrcExpl.vimrc
 source ~/.vimconfig/bundles/gtags.vim.vimrc
 source ~/.vimconfig/bundles/tagbar.vimrc
 source ~/.vimconfig/bundles/CCTree.vimrc
-" 工具
+" 错误
 source ~/.vimconfig/bundles/ale.vimrc
-source ~/.vimconfig/bundles/completor.vimrc
 " source ~/.vimconfig/bundles/vim-vebugger.vimrc
-" source ~/.vimconfig/bundles/YouCompleteMe.vimrc
 " source ~/.vimconfig/bundles/vimproc.vim.vimrc
-
+" 自动补全
+source ~/.vimconfig/bundles/completor.vimrc
+" source ~/.vimconfig/bundles/tabnine-vim.vimrc
+" source ~/.vimconfig/bundles/YouCompleteMe.vimrc
+" LSP
+" source ~/.vimconfig/bundles/coc.nvim.vimrc
+" c/c++
+source ~/.vimconfig/bundles/vim-cpp-enhanced-highlight.vimrc
+source ~/.vimconfig/bundles/vim-fswitch.vimrc
 " rust
 source ~/.vimconfig/bundles/rust.vim.vimrc
 " go
 source ~/.vimconfig/bundles/vim-go.vimrc
+
+
 call plug#end()
