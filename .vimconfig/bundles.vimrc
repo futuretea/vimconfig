@@ -45,11 +45,11 @@ source ~/.vimconfig/bundles/ale.vimrc
 " source ~/.vimconfig/bundles/vim-vebugger.vimrc
 " source ~/.vimconfig/bundles/vimproc.vim.vimrc
 " 自动补全
-source ~/.vimconfig/bundles/completor.vimrc
+" source ~/.vimconfig/bundles/completor.vimrc
 " source ~/.vimconfig/bundles/tabnine-vim.vimrc
 " source ~/.vimconfig/bundles/YouCompleteMe.vimrc
 " LSP
-" source ~/.vimconfig/bundles/coc.nvim.vimrc
+source ~/.vimconfig/bundles/coc.nvim.vimrc
 " c/c++
 source ~/.vimconfig/bundles/vim-cpp-enhanced-highlight.vimrc
 source ~/.vimconfig/bundles/vim-fswitch.vimrc
