@@ -1,4 +1,4 @@
-" colorscheme gruvbox
+colorscheme gruvbox
 if has("syntax")
     syntax on
 endif

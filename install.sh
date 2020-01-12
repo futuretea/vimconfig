@@ -18,6 +18,8 @@ if [ $# -ne 0 ];then
     useage
     exit 1
 fi
-ls -al
-cp .vim* "${HOME}"/ -r
 
+ls -al
+cp .vim* ~/ -r
+mkdir -p  ~/.vim/colors
+cp ~/.vim/plugged/gruvbox/colors/gruvbox.vim ~/.vim/colors/
