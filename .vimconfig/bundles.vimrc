@@ -58,6 +58,8 @@ source ~/.vimconfig/bundles/vim-fswitch.vimrc
 source ~/.vimconfig/bundles/rust.vim.vimrc
 " go
 source ~/.vimconfig/bundles/vim-go.vimrc
+" nginx
+source ~/.vimconfig/bundles/nginx.vim.vimrc
 
 
 call plug#end()
