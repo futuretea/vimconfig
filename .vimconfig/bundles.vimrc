@@ -48,7 +48,11 @@ source ~/.vimconfig/bundles/coc.nvim.vimrc
 " source ~/.vimconfig/bundles/tabnine-vim.vimrc
 " source ~/.vimconfig/bundles/YouCompleteMe.vimrc
 " 搜索
-source /usr/share/vim/vimfiles/plugin/fzf.vim
+if filereadable(expand("$HOME/.fzf/plugin/fzf.vim"))
+    source ~/.fzf/plugin/fzf.vim
+else
+    source /usr/share/vim/vimfiles/plugin/fzf.vim
+endif
 source ~/.vimconfig/bundles/ctrlsf.vim.vimrc
 source ~/.vimconfig/bundles/LeaderF.vimrc
 " c/c++

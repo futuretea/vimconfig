@@ -23,4 +23,4 @@ au FocusGained * :set relativenumber
 autocmd InsertEnter * :set norelativenumber number    "插入模式下用绝对行号, 普通模式下用相对
 autocmd InsertLeave * :set relativenumber
 " 启用每行超过80列的字符提示（字体变蓝并加下划线）
- au BufWinEnter * let w:m2=matchadd('Underlined', '\%>' . 80 . 'v.\+', -1)
+au BufWinEnter * let w:m2=matchadd('Underlined', '\%>' . 80 . 'v.\+', -1)

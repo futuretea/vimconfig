@@ -28,7 +28,7 @@ set tabstop=4                                         "设置Tab键的宽度，�
 set shiftwidth=4                                      "换行时自动缩进宽度，可更改（宽度同tabstop）
 set smarttab                                          "指定按一次backspace就删除shiftwidth宽度
 
- set noswapfile                            "设置无临时文件
+set noswapfile                            "设置无临时文件
 
 set writebackup                             "保存文件前建立备份，保存成功后删除该备份
 set nobackup                                "设置无备份文件
