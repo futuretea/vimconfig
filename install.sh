@@ -20,6 +20,6 @@ if [ $# -ne 0 ];then
 fi
 
 ls -al
-cp .vim* ~/ -r
+cp -r .vim* ~/
 mkdir -p  ~/.vim/colors
 cp ~/.vim/plugged/gruvbox/colors/gruvbox.vim ~/.vim/colors/
