@@ -19,7 +19,12 @@ if [ $# -ne 0 ];then
     exit 1
 fi
 
-ls -al
+echo "[*] starting"
+echo "[1] copy vim config"
 cp -r .vim* ~/
 mkdir -p  ~/.vim/colors
+echo "[2] install vim plugin"
+vim -c ":PlugInstall"
+echo "[3] exec post script"
 cp ~/.vim/plugged/gruvbox/colors/gruvbox.vim ~/.vim/colors/
+echo "[*] finished"
